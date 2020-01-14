@@ -1,0 +1,83 @@
+.section4 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FA921F;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.section4 hr {
+    margin-bottom: 30px;
+}
+
+.desc h1 {
+    text-align: left;
+    color: crimson;
+    font-size: 30px;
+    text-transform: none;
+}
+
+.contactlinks {
+    text-align: center;
+    color: #FA921F;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.contactlinks a {
+    text-decoration: none;
+}
+
+.f {
+    transition: 0.5s;
+    margin: auto 30px;
+}
+
+.f:hover {
+    color: crimson;
+}
+
+.desc {
+    margin: 40px 40px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 40px;
+    color: rgba(205, 200, 200, 01);
+}
+
+textarea,
+#submit {
+    float: right;
+}
+
+textarea {
+    border: 2px solid #CA1F3D;
+    width: 500px;
+    background-color: rgba(205, 200, 200, 01);
+    transition: 0.5s;
+}
+
+textarea:hover {
+    border: 2px solid #FA921F;
+}
+
+#submit {
+    background: #CA1F3D;
+    border: none;
+    font-size: 20px;
+    padding: 13px 25px;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    transition: 0.5s;
+}
+
+#submit:hover {
+    background: #A01862;
+}
+
+#follow {
+    text-transform: none;
+    color: crimson;
+    font-size: 30px;
+    padding-bottom: 90px;
+}

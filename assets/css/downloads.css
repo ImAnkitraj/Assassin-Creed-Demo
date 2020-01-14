@@ -1,0 +1,137 @@
+.heading h1 {
+    padding-top: 70;
+    padding-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FA921F;
+    font-size: 40px;
+}
+
+#buyarea {
+    display: block;
+}
+
+.card {
+    margin: auto 10px;
+    display: inline-block;
+    background-color: rgba(205, 200, 200, 01);
+    height: 430px;
+    width: 379.5px;
+    position: relative;
+    margin: auto;
+}
+
+.info {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.prof {
+    font-size: 25px;
+    position: absolute;
+    top: 140px;
+    font-family: "Work Sana", sans-serif;
+    color: #555555;
+}
+
+.name {
+    font-size: 35px;
+    font-family: "Raleway", sans-serif;
+    color: #f79f08;
+    position: absolute;
+    letter-spacing: 2px;
+    font-weight: 600;
+    top: 100px;
+}
+
+.divider {
+    background-color: #949594;
+    height: 1.5px;
+    width: 50px;
+    position: absolute;
+    top: 190px;
+}
+
+.bio {
+    position: absolute;
+    top: 220px;
+    color: #232323;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    line-height: 28px;
+}
+
+#contactme {
+    position: absolute;
+    bottom: 30px;
+    background: #CA1F3D;
+    border: none;
+    font-size: 20px;
+    padding: 13px 25px;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    transition: 0.5s;
+}
+
+#contactme a {
+    text-decoration: none;
+    color: white;
+}
+
+#contactme:hover {
+    background: #A01862;
+}
+
+#odyssey {
+    background: url(../photos/odyssey.jpg) center;
+    background-size: cover;
+    transition: 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+}
+
+#blackflag {
+    background: url(../photos/blackflag.jpg) center;
+    background-size: cover;
+    transition: 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+}
+
+#rogue {
+    background: url(../photos/rogue.jpg) center;
+    background-size: cover;
+    transition: 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+}
+
+#syndicate {
+    background: url(../photos/syndicate.jpg) center;
+    background-size: cover;
+    transition: 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+}
+
+.card:hover .photo {
+    transform: scale(0.5, 0.35) translateY(-650px);
+    background-size: 100% 150%;
+    background-position: 0 -100px;
+    border-radius: 50%;
+}

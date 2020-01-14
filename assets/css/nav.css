@@ -1,0 +1,128 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.menu {
+    padding: 20px 0;
+    background: transparent;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 30px 8%;
+}
+
+.logo {
+    height: 80px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.menu ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0 20px;
+    display: inline;
+}
+
+.menu ul li a {
+    border: 1px solid #fff1;
+    color: #F7AA35;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1em;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.menu ul li a:hover {
+    color: beige;
+    transition: 0.5s;
+    border: 0.1px solid beige;
+}
+
+.section1 {
+    justify-content: center;
+    display: flex;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+    overflow: hidden;
+    min-height: 100vh;
+    /* display: flex; */
+    /* align-items: center; */
+    color: beige;
+}
+
+header {
+    background: url('../photos/4.jpg') center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section3 {
+    background: url('../photos/3.jpg') center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.section2,
+.section4 {
+    background: #232323;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    color: beige;
+}
+
+footer {
+    line-height: 30px;
+    color: rgba(205, 200, 200, 01);
+    padding-top: 30px;
+    position: relative;
+    /* margin-top: -100px; */
+    height: 90px;
+    background: url('../photos/2.jpg') bottom;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+footer #moveup {
+    z-index: 100;
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    /* float: right;
+    margin-top: 15px;
+    margin-right: 50px; */
+    padding: 20px;
+    border: 2px solid beige;
+    border-radius: 50%;
+    background-color: #CA1F3D;
+    color: beige;
+    font-size: 20px;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+footer #moveup:hover {
+    background-color: #A01862;
+    color: beige;
+    border: 2px solid beige;
+}
